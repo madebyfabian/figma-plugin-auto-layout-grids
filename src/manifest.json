@@ -5,14 +5,14 @@
   "editorType": [ "figma" ],
   "menu": [
     {
-      "name": "Show",
+      "name": "Add Layout Grids",
       "command": "show",
       "parameterOnly": true,
       "parameters": [
         {
           "name": "Type",
           "key": "type",
-          "description": "Which type of Layout grid would you like to have?"
+          "description": "Which type of Layout grid would you like to apply?"
         }
       ]
     }
