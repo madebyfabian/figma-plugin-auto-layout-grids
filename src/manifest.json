@@ -1,0 +1,20 @@
+{
+  "name": "Layout Grids",
+  "id": "1017842387720709543",
+  "api": "1.0.0",
+  "editorType": [ "figma" ],
+  "menu": [
+    {
+      "name": "Show",
+      "command": "show",
+      "parameterOnly": true,
+      "parameters": [
+        {
+          "name": "Type",
+          "key": "type",
+          "description": "Which type of Layout grid would you like to have?"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "figma-plugin-layout-grids",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "webpack-cli --mode=development --watch",
+    "build": "webpack-cli --mode=production"
+  },
+  "author": "madebyfabian",
+  "devDependencies": {
+    "@figma/plugin-typings": "^1.33.0",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.5",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-messages": "^2.0.4"
+  }
+}
