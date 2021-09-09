@@ -89,6 +89,17 @@ const startPluginWithParameters = (parameters: ParameterValues) => {
 
       default: {
         const foundGridData = grids.find(grid => grid.name === parameters['type'])
+
+        // Search also in local grids
+        if (!foundGridData) {
+          const foundLocalGrid = localGridStyles.find(grid => grid.name === parameters['type'])
+          if (!foundLocalGrid)
+            return
+
+          node.gridStyleId = foundLocalGrid.id
+          break
+        }
+
         if (foundGridData.gridStyleId) 
           node.gridStyleId = foundGridData.gridStyleId
         else

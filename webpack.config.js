@@ -62,7 +62,7 @@ module.exports = ( env, argv ) => {
             fs.writeFileSync(path.join(distFolder, 'manifest.json'), JSON.stringify({
               ...manifest,
               main: 'main.js',
-              name: `${ isProduction ? '🚀 PROD — ' : '' }${ manifest.name || 'Please provide plugin name' }`,
+              name: manifest.name || 'Please provide plugin name',
               id: manifest.id || ''
             }))
           })
