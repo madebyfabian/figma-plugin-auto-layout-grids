@@ -112,7 +112,7 @@ const searchForGrids = () => {
     if (!(gridStyleId || layoutGrids?.length))
       return false
 
-    // Check if already in the list
+    // Check if already in the list, if not, push
     if (!grids.find(grid => grid.id === gridStyleId || JSON.stringify(grid.layoutGrids) === JSON.stringify(layoutGrids))) {
       grids.push({ name: `Copy grid from "${node.name}"`, gridStyleId, layoutGrids })
     }
