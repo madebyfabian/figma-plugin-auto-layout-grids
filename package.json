@@ -1,5 +1,5 @@
 {
-  "name": "figma-plugin-layout-grids",
+  "name": "figma-plugin-auto-layout-grids",
   "version": "1.0.0",
   "scripts": {
     "start": "webpack-cli --mode=development --watch",
