@@ -2,7 +2,7 @@
 # Auto Layout Grids
 
 The code for the [Figma](https://figma.com) plugin "Auto Layout Grids" by [@madebyfabian](https://twitter.com/madebyfabian).<br>
-You can find the plugin, a description, FAQs, and the version history at [tbd](tbd)
+You can find the plugin, a description, FAQs, and the version history at [https://www.figma.com/community/plugin/1017842387720709543](https://www.figma.com/community/plugin/1017842387720709543)
 
 
 ### Feature requests? 😊 Questions?
