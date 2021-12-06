@@ -9,12 +9,11 @@ const typesValues = {
 let grids
 
 // The 'input' event listens for text change in the Quick Actions box after a plugin is 'Tabbed' into.
-figma.parameters.on('input', ( parameters: ParameterValues, currentKey: string, result: SuggestionResults ) => {
+figma.parameters.on('input', ({ parameters, key, query, result }: ParameterInputEvent) => {
   // Search for grids or gridIds on any frame in the current page
   grids = searchForGrids()
 
-  const query = parameters[currentKey]
-  switch (currentKey) {
+  switch (key) {
     case 'type':
       const types = [
         ...Object.values(typesValues),
